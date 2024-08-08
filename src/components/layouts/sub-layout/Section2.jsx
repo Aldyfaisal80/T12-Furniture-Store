@@ -21,7 +21,7 @@ export default function Section2() {
             </div>
             <div className="flex flex-wrap justify-between items-center gap-6 w-[1280px]">
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair1}
                     title={"Mad Queen Armchair"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -37,7 +37,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair2}
                     title={"White Wood Table"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -53,7 +53,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair3}
                     title={"ESSEBODA 2-Seat Sofa"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -69,7 +69,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair4}
                     title={"Single Sofa"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -85,7 +85,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair5}
                     title={"Single Table 18"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -101,7 +101,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair6}
                     title={"Soft Gray Chair"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -117,7 +117,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair7}
                     title={"Mad Queen Armchair"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -133,7 +133,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
+                    icon={<FaHeart size={24} />}
                     img={Chair8}
                     title={"Table Lamp"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
