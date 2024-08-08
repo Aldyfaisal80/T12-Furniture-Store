@@ -9,6 +9,7 @@ import Chair5 from '../../../../public/assets/images/25.png'
 import Chair6 from '../../../../public/assets/images/26.png'
 import Chair7 from '../../../../public/assets/images/27.png'
 import Chair8 from '../../../../public/assets/images/28.png'
+import ProductCard from "../../elements/ProductCard";
 
 
 export default function Section2() {
@@ -18,6 +19,16 @@ export default function Section2() {
                 <h1 className="text-4xl font-semibold">Popular Products</h1>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptatem <br /> nesciunt minima natus deserunt odit.</span>
             </div>
+            <ProductCard
+                icon={<CiHeart size={26} />}
+                img={Chair1}
+                title={"Mad Queen Armchair"}
+                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
+                iconsGroup={<RiStarSFill />}
+                rating={4.5}
+                reviews={"50 Reviews"}
+                price={120}
+            />
             <div className="flex flex-wrap justify-between items-center gap-6 w-[1280px]">
                 <div className="flex flex-col w-[300px] border-2 border-primary-gray justify-center items-center gap-2 p-4 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
                     <div className="relative w-full flex flex-col justify-center items-center">

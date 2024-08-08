@@ -9,7 +9,7 @@ export default function MainLayout() {
   return (
     <div className="flex flex-col w-full px-[80px] gap-[80px]">
         {/* section 1 */}
-        <div className="flex flex-col w-full min-h-screen border-2 border-primary-gray">
+        <div className="flex flex-col w-full min-h-screen ">
             <Navbar />
 
             <Section1 />

@@ -2,13 +2,14 @@ import { FaTableCellsLarge } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
 import { GrCart } from "react-icons/gr";
 import { CiSearch } from "react-icons/ci";
+import PrimaryButton from "../elements/PrimaryButton";
 
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between font-Poppins mt-2">
+    <nav className="flex justify-between font-Poppins text-[1.2rem] mt-2">
       <div className="flex items-center">
-        <h1>FURNITURE.ME</h1>
+        <h1 className="italic">FURNITURE<span className="text-primary-blue">.ME</span></h1>
       </div>
       <div className="flex items-center justc gap-6">
         <FaTableCellsLarge />
@@ -40,8 +41,8 @@ export default function Navbar() {
         <FaRegHeart size={20} />
         <GrCart size={20} />
         <CiSearch size={25} />
-        <button className="bg-primary-blue text-white p-2 rounded-lg">Get Started</button>
-      </div>
+        <PrimaryButton.BlueButton text={"Get Started"} />
+      </div>  
     </nav>
   )
 }
