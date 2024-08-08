@@ -9,13 +9,13 @@ import profile from '../../../../public/assets/images/pp github.jpg'
 export default function Section4() {
     return (
         <section className="flex flex-col w-full justify-center items-center gap-[80px]">
-            <div className="flex flex-col w-full gap-6 justify-center items-center text-center">
+            <div className="flex flex-col w-full gap-8 justify-center items-center text-center">
                 <div className="flex flex-col gap-4 justify-center items-center text-center">
                     <h1 className="text-4xl font-semibold">Customer says about us</h1>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Repudiandae, nesciunt minima natus.</span>
                 </div>
                 <div className="w-full flex justify-between items-center px-[40px] rounded-3xl" style={{ backgroundImage: `url(${bgCustomer})` }}>
-                    <img src={modernChair} alt="" className='w-[600px]' />
+                    <img src={modernChair} alt="" className='w-[550px]' />
                     <div className='flex flex-col gap-4 w-[550px] bg-white p-8 rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
                         <div className='flex justify-between items-center'>
                             <div className='flex justify-center items-center gap-4'>

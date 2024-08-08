@@ -26,7 +26,7 @@ export default function MainLayout() {
         </div>
 
         {/* section 4 */}
-        <div className="flex flex-col w-full min-h-screen px-[80px]">
+        <div className="flex flex-col w-full min-h-screen px-[80px] gap-[60px]">
             <Section4 />
 
             <Footer />
