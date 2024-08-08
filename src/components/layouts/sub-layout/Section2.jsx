@@ -1,4 +1,4 @@
-import { CiHeart } from "react-icons/ci";
+import { FaHeart } from "react-icons/fa";
 import { RiStarSFill } from "react-icons/ri";
 import { FiShoppingCart } from "react-icons/fi";
 import Chair1 from '../../../../public/assets/images/1.png'
@@ -11,6 +11,7 @@ import Chair7 from '../../../../public/assets/images/27.png'
 import Chair8 from '../../../../public/assets/images/28.png'
 import ProductCard from "../../elements/ProductCard";
 
+
 export default function Section2() {
     return (
         <section className="flex flex-col w-full justify-center items-center gap-10">
@@ -20,7 +21,7 @@ export default function Section2() {
             </div>
             <div className="flex flex-wrap justify-between items-center gap-6 w-[1280px]">
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair1}
                     title={"Mad Queen Armchair"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -36,7 +37,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair2}
                     title={"White Wood Table"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -52,7 +53,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair3}
                     title={"ESSEBODA 2-Seat Sofa"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -68,7 +69,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair4}
                     title={"Single Sofa"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -84,7 +85,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair5}
                     title={"Single Table 18"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -100,7 +101,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair6}
                     title={"Soft Gray Chair"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -116,7 +117,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair7}
                     title={"Mad Queen Armchair"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
@@ -132,7 +133,7 @@ export default function Section2() {
                     btnIcon={<FiShoppingCart />}
                 />
                 <ProductCard
-                    icon={<CiHeart size={26} />}
+                    icon={<FaHeart size={24} className="text-primary-gray hover:text-white" />}
                     img={Chair8}
                     title={"Table Lamp"}
                     description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maiores."}
