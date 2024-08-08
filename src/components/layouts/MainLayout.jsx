@@ -7,21 +7,21 @@ import Section4 from "./sub-layout/Section4";
 
 export default function MainLayout() {
   return (
-    <div className="flex flex-col w-full px-[80px] gap-[80px]">
+    <div className="flex flex-col w-full gap-[80px]">
         {/* section 1 */}
-        <div className="flex flex-col w-full min-h-screen ">
+        <div className="flex flex-col w-full min-h-screen px-[80px] py-1 bg-gradient-to-l from-cyan-100 via-white to-cyan-100">
             <Navbar />
 
             <Section1 />
         </div>
 
         {/* section 2 */}
-        <div className="flex flex-col w-full min-h-screen">
+        <div className="flex flex-col w-full min-h-screen px-[80px]">
             <Section2 />
         </div>
 
         {/* section 3 */}
-        <div className="flex flex-col w-full min-h-screen bg-primary-blue border-2 border-primary-gray">
+        <div className="flex flex-col w-full min-h-screen px-[80px] bg-primary-blue border-2 border-primary-gray">
             <Section3 />
         </div>
 
