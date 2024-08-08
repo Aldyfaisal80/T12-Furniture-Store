@@ -1,4 +1,4 @@
-import { FaTableCellsLarge } from "react-icons/fa6";
+import { MdOutlineDashboard } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import { GrCart } from "react-icons/gr";
 import { CiSearch } from "react-icons/ci";
@@ -9,11 +9,11 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between font-Poppins text-[1.2rem] mt-2">
       <div className="flex items-center">
-        <h1 className="italic">FURNITURE<span className="text-primary-blue">.ME</span></h1>
+        <h1 className="italic font-extrabold text-[1.5rem]">FURNITURE<span className="text-primary-blue">.ME</span></h1>
       </div>
       <div className="flex items-center justc gap-6">
-        <FaTableCellsLarge />
-        <select className="outline-none" name="" id="">
+        <MdOutlineDashboard size={25}/>
+        <select className="outline-none p-1 bg-transparent" name="" id="">
           <option value="">All Categories</option>
           <option value="">Sofa</option>
           <option value="">Chair</option>
