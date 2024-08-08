@@ -6,7 +6,7 @@ import { TfiInstagram } from "react-icons/tfi";
 import FooterImg from "../../../public/assets/images/gmap.png"
 export default function Footer() {
   return (
-    <div className="flex justify-between w-full">
+    <div className="flex justify-between w-full mb-10">
       <div className="flex flex-col gap-6 w-[40%]">
         <div className="flex flex-col gap-5">
           <h1 className="text-3xl font-bold italic">FURNITURE<span className="text-gray-500">.ME</span></h1>
