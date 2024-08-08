@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const ProductCard = ({ icon , img , title , description, iconsGroup , rating , reviews ,price  }) => {
+const ProductCard = ({ icon , img , title , description, iconsGroup , rating , reviews ,price, btnIcon  }) => {
     return (
         <div className="flex flex-col w-[300px] border-2 border-primary-gray justify-center items-center gap-2 p-4 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <div className="relative w-full flex flex-col justify-center items-center">
@@ -20,7 +20,7 @@ const ProductCard = ({ icon , img , title , description, iconsGroup , rating , r
             </div>
             <div className="flex w-full justify-between items-center">
                 <h1 className="text-[1.3rem] font-bold">${price}</h1>
-                <button className="flex gap-2 justify-center items-center text-lg text-white bg-primary-blue px-3 py-2 rounded-lg">Add to cart {icon}</button>
+                <button className="flex gap-2 justify-center items-center text-lg text-white bg-primary-blue px-3 py-2 rounded-lg">Add to cart {btnIcon}</button>
             </div>
         </div>
     )

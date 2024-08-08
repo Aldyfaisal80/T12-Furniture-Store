@@ -16,7 +16,7 @@ export default function MainLayout() {
         </div>
 
         {/* section 2 */}
-        <div className="flex flex-col w-full min-h-screen border-2 border-primary-gray">
+        <div className="flex flex-col w-full min-h-screen">
             <Section2 />
         </div>
 
