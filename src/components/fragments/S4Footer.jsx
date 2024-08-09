@@ -45,8 +45,8 @@ export default function Footer() {
             </div>
           </ul>
         </div>
-        <div className="mt-10">
-          <img src={FooterImg} alt="IMG" />
+        <div className="mt-5">
+          <img className="w-full h-[350px]" src={FooterImg} alt="IMG" />
         </div>
       </div>
     </div>
