@@ -7,7 +7,7 @@ const ProductCard = ({ icon , img , title , description, iconsGroup , rating , r
                 <img src={img} alt="" className="p-4 w-[220px] aspect-square" />
             </div>
             <div className="flex flex-col gap-2">
-                <h1 className="text-xl font-bold text-center">{title}</h1>
+                <h1 className="text-xl font-semibold text-center">{title}</h1>
                 <div className="flex flex-col gap-2">
                     <p className="text-sm text-gray-400">{description}</p>
                     <span className="flex text-yellow-500">
