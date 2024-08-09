@@ -1,9 +1,10 @@
 import { FaFacebookF } from "react-icons/fa";
 import { RxTwitterLogo } from "react-icons/rx";
 import { TfiInstagram } from "react-icons/tfi";
-
-
 import FooterImg from "../../../public/assets/images/gmap.png"
+import { FooterIcons, FooterLink } from "../elements/FooterLink";
+
+
 export default function Footer() {
   return (
     <div className="flex justify-between w-full mb-10">
@@ -25,23 +26,41 @@ export default function Footer() {
       <div className="flex justify-between flex-col w-[50%]">
         <div className="flex justify-between">
           <ul className="flex flex-col gap-3">
-            <li className="text-2xl font-semibold"><a href="#">NAVIGATION</a></li>
-            <li className="font-medium text-gray-600"><a className="hover-underline" href="#">Home</a></li>
-            <li className="font-medium text-gray-600"><a className="hover-underline" href="#">Event</a></li>
-            <li className="font-medium text-gray-600"><a className="hover-underline" href="#">Services</a></li>
+            <h1 className="text-2xl font-semibold">NAVIGATION</h1>
+            <li className="font-medium text-gray-600">
+              <FooterLink text={"Home"}/>
+            </li>
+            <li className="font-medium text-gray-600">
+              <FooterLink text={"Event"}/>
+            </li>
+            <li className="font-medium text-gray-600">
+              <FooterLink text={"Services"}/>
+            </li>
           </ul>
           <ul className="flex flex-col gap-3">
-            <li className="text-2xl font-medium"><a href="#">GET TO KNOW US</a></li>
-            <li className="font-medium text-gray-600"><a className="hover-underline" href="#">Careers</a></li>
-            <li className="font-medium text-gray-600"><a className="hover-underline" href="#">Blog</a></li>
-            <li className="font-medium text-gray-600"><a className="hover-underline" href="#">About Furniture.ME</a></li>
+            <h1 className="text-2xl font-medium">GET TO KNOW US</h1>
+            <li className="font-medium text-gray-600">
+              <FooterLink text={"Careers"}/>
+            </li>
+            <li className="font-medium text-gray-600">
+              <FooterLink text={"Blog"}/>
+            </li>
+            <li className="font-medium text-gray-600">
+              <FooterLink text={"About Furniture.ME"}/>
+            </li>
           </ul>
           <ul className="flex flex-col gap-3">
-            <li className="text-2xl font-semibold"><a href="#">FOLLOW US</a></li>
+            <h1 className="text-2xl font-semibold">FOLLOW US</h1>
             <div className="flex gap-4 text-primary-blue">
-              <li>{<FaFacebookF size={24} />}</li>
-              <li>{<RxTwitterLogo size={24} />}</li>
-              <li>{<TfiInstagram size={24} />}</li>
+              <li>
+                <FooterIcons icon={<FaFacebookF size={24} />} />
+              </li>
+              <li>
+                <FooterIcons icon={<RxTwitterLogo size={24} />} />
+              </li>
+              <li>
+                <FooterIcons icon={<TfiInstagram size={24} />} />
+              </li>
             </div>
           </ul>
         </div>
