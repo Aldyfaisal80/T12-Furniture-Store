@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import PrimaryButton from "../elements/PrimaryButton";
 
 
+
 export default function Navbar() {
   return (
     <nav className="flex justify-between font-Poppins text-[1.2rem] mt-2">
@@ -41,7 +42,7 @@ export default function Navbar() {
         <FaRegHeart size={20} />
         <GrCart size={20} />
         <CiSearch size={25} />
-        <PrimaryButton.BlueButton text={"Get Started"} />
+        <PrimaryButton.BlueButton text={"Get Started"} className={"z-10"} />
       </div>  
     </nav>
   )
