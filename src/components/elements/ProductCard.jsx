@@ -37,7 +37,7 @@ const CardPrice = ({ price, btnIcon }) => {
     return (
         <div className="flex w-full justify-between items-center">
             <h1 className="text-[1.3rem] font-bold">${price}</h1>
-            <button className="flex gap-2 justify-center items-center text-lg text-white bg-primary-blue px-3 py-2 rounded-lg">Add to cart {btnIcon}</button>
+            <button className="flex gap-2 justify-center items-center text-lg text-white bg-primary-blue px-3 py-2 rounded-lg hover:bg-transparent  border-primary-blue border hover:text-black cursor-pointer hover:delay-75 duration-300 transition-all hover:ease-in-out">Add to cart {btnIcon}</button>
         </div>
     )
 }

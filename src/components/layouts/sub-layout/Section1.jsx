@@ -12,7 +12,7 @@ export default function Section1() {
         </div>
       </div>
       <div className="w-[70%]">
-        <img src={HeroImg} alt="IMG" />
+        <img src={HeroImg} alt="IMG" className="" />
       </div>
     </section>
 
