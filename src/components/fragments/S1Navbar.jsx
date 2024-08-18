@@ -8,7 +8,7 @@ import PrimaryButton from "../elements/PrimaryButton";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between font-Poppins text-[1.2rem] mt-2">
+    <nav className="flex justify-between font-Poppins text-[1.2rem] px-[80px] bg-gradient-to-l from-cyan-100 via-white to-cyan-100">
       <div className="flex items-center">
         <h1 className="italic font-extrabold text-[1.5rem]">FURNITURE<span className="text-primary-blue">.ME</span></h1>
       </div>

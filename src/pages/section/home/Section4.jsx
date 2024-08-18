@@ -42,7 +42,7 @@ export default function Section4() {
                         <button className='flex justify-center items-center w-[40px] h-[40px] border-primary-blue border-2 text-primary-blue font-bold rounded-lg'><IoMdArrowBack /></button>
                     </div>
                 </div>
-                <div className='w-full flex flex-col gap-6 justify-center items-center'>
+                <div className='w-full flex flex-col gap-6 justify-center items-center px-[80px]'>
                     <div className='w-full flex flex-col gap-4 justify-center items-center text-center'>
                         <h1 className='text-4xl font-semibold '>Keep in touch</h1>
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Repudiandae, nesciunt minima natus.</span>

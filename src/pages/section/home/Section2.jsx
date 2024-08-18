@@ -1,4 +1,4 @@
-import ProductCard from "../../fragments/S2CardProduct";
+import ProductCard from "../../../components/fragments/S2CardProduct";
 
 export default function Section2() {
     return (

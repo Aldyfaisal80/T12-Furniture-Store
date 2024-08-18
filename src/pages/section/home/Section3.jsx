@@ -10,8 +10,8 @@ import { FiShoppingCart } from "react-icons/fi";
 import { RiArrowDownDoubleLine } from "react-icons/ri";
 
 
-import ProductCard from "../../elements/ProductCard"
-import Categories from "../../fragments/S3Categories"
+import ProductCard from "../../../components/elements/ProductCard"
+import Categories from "../../../components/fragments/S3Categories"
 export default function Section3() {
   return (
     <section>
